@@ -1,4 +1,6 @@
 import { TouchableOpacity } from "react-native";
+import { styles } from './styles'
+import { Button } from './src/components/Button';
 
 
 
@@ -6,9 +8,11 @@ import { TouchableOpacity } from "react-native";
 export function Button() {
 
     return (
-        <TouchableOpacity>
-            <Text>
-
+        <TouchableOpacity style={
+            styles.button
+        }>
+            <Text styles={styles.buttonText}>
+                Clique aqui
             </Text>
         </TouchableOpacity>
     )

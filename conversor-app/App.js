@@ -13,7 +13,7 @@ export default function App() {
 
       <View>
         <Text>De:</Text>
-
+        <Button></Button>
       </View>
       
     </View>
